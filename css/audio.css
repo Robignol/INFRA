@@ -1,0 +1,49 @@
+/* Absolute Center */
+.abs-center{
+	margin: auto;
+	position: fixed;
+	top:0; right:0; bottom:0; left:0;
+}
+/*Container for audio player*/
+#audioplayer{
+	width: 360px;
+	height: 43px;
+	margin: auto;
+	margin-top: 37px;
+	border: white;
+	background-color: white
+	
+}
+/* Play/Pause Button */
+#pButton{
+	height:45px;
+	width: 45px;
+	border: none;
+	background-size: 40% 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	outline:none;
+
+}
+/*Classes for play/pause button background*/
+.play{background: url('../images/play.png') ;}
+.pause{background: url('../images/pause.png') ;}
+
+#timeline{
+	width: 286px;
+	height: 4px;
+	background: rgba(0,0,0,.3);
+	margin-top: 19px;
+	float: left;
+	border-radius: 0px;
+}
+/*Grabable Playhead*/
+#playhead{
+	cursor: pointer;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-top: -3px; margin-left: -2px;
+	background: black;
+}

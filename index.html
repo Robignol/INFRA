@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+
+<body>
+
+
+
+
+  <main>
+    <a href="infra.html">
+    <span><p>infra</p></span>
+    </a>
+  </main>
+
+
+
+
+</main>
+
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: white;
+}
+
+html,
+body {
+  font-family: 'Fira Code', monospace;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 3rem;
+  background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+}
+
+span {
+  position: relative;
+}
+
+span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background: #000;
+  bottom: -1px;
+  transition: all 0.2s ease-out;
+}
+
+p:hover {
+  background-position: 0 11px;
+}
+
+span:hover:before {
+  transform: translateY(10px)
+}
+
+</style>
+</body>
+</html>

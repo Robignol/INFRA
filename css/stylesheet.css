@@ -1,0 +1,122 @@
+
+
+
+body {
+  background-color: black;
+  color : white;
+  font-family: sans-serif;
+}
+
+::selection {
+  color: black;
+  background-color: none;
+}
+
+
+.image_ionesco {
+  background-color: black;
+	padding-top: 10vw; padding-bottom: 4vw; padding-left: 3vw; padding-right: 3vw;
+	width: 60%;
+	margin-left: 10vw;
+  display: grid;
+  place-items: center;
+}
+
+.responsive_image {
+  width: 100%;
+  height: auto;
+}
+
+#left_menu {
+
+	background-color: urple;
+  position: absolute;
+
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.5s; /* Transition effect when sliding down (and up) */
+
+  z-index: 10;
+
+}
+
+.content {
+
+	background-color: black;
+  font-family: sans-serif; font-weight: lighter; font-size: 13px;
+  text-align: justify;
+
+
+
+}
+
+.top-bar{
+	column-count: 3;
+  height: 100px;
+	column-gap: 50px;
+	background-color: ed;
+	column-width: auto;
+}
+
+
+.title {
+	color : white;
+	font-size: 7vw;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+
+.archives-button {
+	color : white;
+	font-size: 7vw;
+	font-family: sans-serif;
+	font-weight: lighter;
+	text-align: left;
+}
+
+.manifesto-button {
+	color : white;
+	font-size: 7vw;
+	font-family: sans-serif;
+	font-weight: lighter;
+	text-align: left;
+}
+
+video {
+  width: 30%;
+  height: auto;
+
+}
+
+
+.center-vertical-video { margin: 0 auto; width: 30%; display: block;}
+
+.center-horizontal-video { margin: 0 auto; width: 60vw; display: block;}
+
+.video_01 {
+background-color: magenta;
+padding-left: 1vw;padding-right: 1vw; padding-top: 15vw; padding-bottom: 15vw;
+}
+
+.video_02 {
+background-color: green;
+padding-left: 1vw;padding-right: 1vw; padding-top: 15vw; padding-bottom: 15vw;
+}
+
+a {
+  color: white;
+	text-decoration: none;
+}
+a:hover {
+  background-color: white;
+	text-decoration: underline black;
+	color: black;
+}
+
+
+
+
+.archive-list {
+	text-align: center; font-size: 170%; padding-top: 6em;
+}
