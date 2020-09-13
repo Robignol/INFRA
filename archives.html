@@ -39,6 +39,10 @@
 	} else {
 				document.getElementById("left_menu").style.top = "-350px";
 	}
+	if (window.innerWidth < 400) {
+		document.getElementById("left_menu").style.top = "0";
+	}
+
 
 	prevScrollpos = currentScrollpos;
 
