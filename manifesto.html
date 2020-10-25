@@ -52,59 +52,87 @@
 
 
 <style>
+
+a:hover {
+  background-color: white;
+	text-decoration: none;
+	color: black;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  -grid-template-rows:
-  -grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  grid-gap: 0px 0px;
+  -grid-template-rows: ;
+  -grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+	-grid-template-columns: 1fr 1fr 1fr;
+
+	grid-auto-rows: 10%;
+	grid-gap: 0px;
+
+  -grid-gap: 0px 10px;
   background-color: none --2196F3;
-  font-size: 6vw ;
+  -font-size: 6vw ;
   text-align: center;
   font-style: normal; font-weight:  100;
-  padding-top: 20vw;
+  padding-top: 21vw;
+
+
 }
 
 .grid-container > div {
-  background-color: none -rgba(255, 255, 255, 0.8);
+  -background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  font-size: 6vw ;
+  font-size: 8vw ;
+
 }
+
+@media only screen and (max-width: 900px) {
+.grid-container {
+	margin-top:10vh;
+}
+@media only screen and (max-width: 450px) {
+.grid-container {
+	margin-top:12vh;
+	grid-auto-rows: 15%;
+}
+
+
 </style>
+
 </head>
 <body>
 
 
 
 <div class="grid-container">
-<a href="https://www.w3schools.com/"> <div>infra</div></a>
-<a href="google.com">  <div>infra</div></a>
-<a href="google.com">  <div>infra</div></a>
-  <a href="https://www.adbusters.org/"><div>infra</div></a>
-  <a href="https://www.youtube.com/watch?v=tAOGX9AhoxI"><div>infra</div></a>
+<div><a href="https://www.w3schools.com/"> infra</div></a>
+<div><a href="google.com">  infra</div></a>
+<div><a href="google.com">  infra</div></a>
+<div><a href="https://www.adbusters.org/">infra</div></a>
+<div><a href="https://www.youtube.com/watch?v=tAOGX9AhoxI">infra</div></a>
   <div>infra</div>
   <div>infra</div>
   <div></div>
   <div>infra</div>
   <div>infra</div>
   <div>infra</div>
-  <a href="https://libgen.lc/search.php?req=les+enfants+terribles&open=0&res=25&view=simple&phrase=1&column=def"><div>infra</div> </a>
+  <div><a href="https://libgen.lc/search.php?req=les+enfants+terribles&open=0&res=25&view=simple&phrase=1&column=def">infra</div> </a>
   <div>infra</div>
-  <a href="http://spamm.fr/stream/?g=89"><div>infra</div> </a>
-  <a href="https://www.youtube.com/watch?v=6V-R_qt3V_M"><div>infra</div> </a>
-  <div>infra</div>
-  <div>infra</div>
+  <div><a href="http://spamm.fr/stream/?g=89">infra</div> </a>
+  <div><a href="https://www.youtube.com/watch?v=6V-R_qt3V_M">infra</div> </a>
   <div>infra</div>
   <div>infra</div>
-	<a href="https://archive.org/details/dementia13"> <div>infra</div></a>
   <div>infra</div>
-  <div></div>
+  <div>infra</div>
+	<div><a href="https://archive.org/details/dementia13"> infra</div></a>
   <div>infra</div>
   <div></div>
   <div>infra</div>
+  <div></div>
   <div>infra</div>
   <div>infra</div>
-  <a href="https://www.w3schools.com/"><div>infra</div></a>
+  <div>infra</div>
+  <div><a href="https://www.w3schools.com/">infra</div></a>
   <div>infra</div>
   <div>infra</div>
   <div></div>
@@ -138,7 +166,6 @@
 
 </body>
 </html>
-
 
 
 </body>
