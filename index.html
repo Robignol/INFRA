@@ -4,6 +4,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
 <link rel="icon" href="favicon.png">
 <title>infra</title>
@@ -32,7 +38,9 @@
 
 html,
 body {
-  font-family: 'Fira Code', monospace;
+  /* font-family: 'Fira Code', monospace; */
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Ubuntu Mono', monospace;
   width: 100%;
   height: 100%;
   font-size: 16px;
@@ -55,7 +63,7 @@ p {
   -webkit-background-clip: text;
   color: transparent;
   background-repeat: no-repeat;
-  transition: background 0.2s ease-out;
+  transition: background 0.15s ease-out;
   white-space: nowrap;
 }
 
@@ -71,15 +79,17 @@ span:before {
   height: 15px;
   background: #000;
   bottom: -1px;
-  transition: all 0.2s ease-out;
+  transition: all 0.15s ease-out;
 }
 
 p:hover {
-  background-position: 0 11px;
+  /* background-position: 0 10px; */
+  background-position: 0 5px;
 }
 
 span:hover:before {
-  transform: translateY(10px)
+  /* transform: translateY(12px) */
+  transform: translateY(14px)
 }
 
 </style>
